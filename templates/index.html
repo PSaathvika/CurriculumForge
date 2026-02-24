@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CurricuForge AI - Powered by Mistral</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <h1>CurricuForge</h1>
+    <p>AI-Based Curriculum Generator (Mistral Model)</p>
+
+    <form id="form">
+        <input type="text" id="skill" placeholder="Enter Skill Domain" required>
+        <input type="text" id="level" placeholder="Education Level" required>
+        <input type="number" id="semesters" placeholder="Total Semesters" required>
+        <input type="text" id="hours" placeholder="Weekly Hours" required>
+        <input type="text" id="focus" placeholder="Industry Focus" required>
+
+        <button type="submit">Build Curriculum</button>
+    </form>
+
+    <div id="output"></div>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
