@@ -1,0 +1,75 @@
+body {
+    background: #0f2027;
+    background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+    font-family: sans-serif;
+    color: white;
+}
+
+.wrapper {
+    width: 55%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 6px;
+    border: none;
+}
+
+button {
+    padding: 10px 20px;
+    background: #00c9a7;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#output {
+    margin-top: 30px;
+    background: white;
+    color: black;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.curriculum-title {
+    color: #007bff;
+    margin-top: 0;
+}
+
+.semester {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-left: 4px solid #007bff;
+    background-color: #f1f5f9;
+    border-radius: 5px;
+}
+
+.course {
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+}
+
+.course strong {
+    color: #333;
+}
+
+.course p {
+    margin: 4px 0;
+    font-size: 13px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
+}
